@@ -14,3 +14,4 @@ After you donwload this code, use the sequence comands above to start the server
 ```sh
 $ pip install flask
 $ pip install Flask-WTF
+$ pip install flask-bcrypt
