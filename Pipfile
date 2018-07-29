@@ -4,13 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-Flask==0.12.2
-Flask-Bcrypt==0.7.1
-Flask-Cors==3.0.3
-Flask-SQLAlchemy==2.3.2
-Flask-WTF==0.14.2
+flask = "*"
+flask-wtf = "*"
+flask-bcrypt = "*"
 
 [dev-packages]
+flask = "*"
+flask-wtf = "*"
+flask-bcrypt = "*"
+pylint = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3.7"

@@ -14,10 +14,12 @@ To use this code you need:
 After you donwload this code, use the sequence comands above to start the server.
 
 ```sh
-$ git clone 
+$ git clone 'https://github.com/kinfall/python-flask-blog.git'
+$ cd python-flsk-blog
 $ sudo apt-get python
 $ sudo apt-get pip
-$ pipenv install flask
-$ pipenv install SQLAlchemy
-$ pipenv install flask-wtf
-$ pipenv install flask-bcrypt
+$ pip install flask
+$ pip install SQLAlchemy
+$ pip install flask-wtf
+$ pip install flask-bcrypt
+$ python run.py
