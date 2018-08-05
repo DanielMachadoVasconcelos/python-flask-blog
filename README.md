@@ -23,4 +23,5 @@ $ pip install SQLAlchemy
 $ pip install flask-wtf
 $ pip install flask-bcrypt
 $ pip install flask-login
+$ pip install Pillow
 $ python run.py
